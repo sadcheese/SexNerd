@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+		<script src="js/vendor/modernizr-2.7.1.min.js"></script>
+		<script src="js/vendor/jquery-1.11.0.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 8]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<!-- Add your site or application content here -->
+		<div id ="nav">
+			<div id="menu">
+				<a href="index.html"><img src="img/logo.png" id="logo" /></a>
+				<div id ="menuR">
+					<a href ="http://www.nerdist.com/podcast/sex-nerd-sandra/" target="podcast"> The Podcast</a>
+					<a  id ="active" href="book.html" > Book Sandra</a>
+					<a href="resources.html"> Resources </a>
+					<a href="frame.html" target="sheg" onclick="window.open('frame.html', 'newwindow', 'width=700, height=250'); return false;"> UpComing</a>
+
+			
+				</div>
+			</div>
+		</div>
+
+		<div id="back1"></div>
+		<div id="back3"></div>
+		<div id ="footer">
+			<p>
+				© Sex Nerd Sandra. Website crafted by <a target="blank" href="http://samokoro.com/">Sam</a>
+			</p>
+		</div>
+
+		<div id ="content">
+
+			<div id ="top">
+
+				<img src="img/sandra2.jpg" id ="sandra2" />
+				<div id ="right">
+					<h2>Book Sandra</h2>
+					<p>
+						Sandra’s role as a sex nerd is quickly expanding.
+						<br />
+						In addition to hosting her weekly show,
+						<br />
+						she is available…
+					</p>
+					<div id="bookBlock">
+						<a class ="book" href ="#mid2" id="book1" onclick="bookM()"> as
+						<br />
+						A SPEAKER </a>
+						<a class ="book" href ="#low2" id="book2" onclick="bookS()"> as
+						<br />
+						A SEX EDUCATOR </a>
+						<a href ="#lowered" class ="book" id="book3" onclick="bookC()"> as
+						<br />
+						A CONSULTANT </a
+					</div>
+
+					<p>
+						<br />
+						Far away? No worries, we can video skype. If you are
+						<br />
+						in the Los Angeles area or would like to provide
+						<br />
+						travel expenses, we can talk in person.
+					</p>
+				</div>
+			</div>
+			<div id ="mid2">
+				<h2>SPEAKER</h2>
+				<a href="#contact" id ="book" onClick="book1()">Book</a>
+				<img src="img/sult.jpg" id="jump" />
+				<p>
+					<strong>MEDIA: </strong>
+					<br />
+					Sandra is available as a resource for your project
+					<br />
+					on both sides of the camera.
+				</p>
+			</div>
+			<div id="low2">
+				<h2>SEX EDUCATOR</h2>
+				<a href="#contact" id ="booked" onClick="book1()">Book</a>
+				<img src="img/bed.jpg" id="jump2" />
+				<p>
+					<strong>WORKSHOPS:</strong>
+					<br />
+					For parties of women and couples who want to have
+					<br />
+					a hilarious time gaining bedroom skills and confidence.
+					<br />
+					<br />
+					<strong>ONE-ON-ONE WORKSHOPS:</strong>
+					<br />
+					For those hoping to work privately on
+					<br />
+					sexual technique with the use of teaching aids.
+					<br />
+					<br />
+					<strong>PERSONAL SHOPPING:</strong>
+					<br />
+					For those overwhelmed or fretting over which
+					<br />
+					toys and other sexuality products to buy.
+				</p>
+			</div>
+			<div id="lowered">
+				<h2>CONSULTANT</h2>
+				<a href="#contact" id ="book" onClick="book1()">Book</a>
+				<img src="img/smile.jpg" id="jump" />
+				<p>
+					<strong>COACHING PACKAGES </strong>
+					<br />
+					For those who are ready for long-term personal
+					<br />
+					development and coaching.
+					<br />
+					<br />
+					<strong>COACHING SESSIONS</strong>
+					<br />
+					For those who  would like personalized attention
+					<br />
+					& guidance with a specific issue.
+					<br />
+					<br />
+					<strong>CORRESPONDENCE</strong>
+					<br />
+					For those who have limitied time or resources and would
+					<br />
+					like some attention
+
+					a specific issue.
+				</p>
+			</div>
+			<div id="contact">
+				<h2> Contact Sandra </h2>
+
+				<p>
+					Oh Gosh! This is exciting!
+				</p>
+				<form action="sent.php" method="get">
+					<input type="text" name="email" placeholder="Email Address..." size="40" id ="email" aria-required="true" aria-invalid="false">
+					<br />
+					<div id ="name">
+						<input type="text" name="first" placeholder="First Name" id ="first" aria-required="true" aria-invalid="false">
+						<input type="text" name="last" placeholder="Last Name"  id ="last" aria-required="true" aria-invalid="false">
+					</div>
+					<textarea id="form2" class="text" name="briefdescription" maxlength="1200" cols="40" rows="4" aria-required="true" placeholder="brief description"></textarea>
+					<input type="submit" id ="submit" />
+				</form>
+			</div>
+		</div>
+
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
